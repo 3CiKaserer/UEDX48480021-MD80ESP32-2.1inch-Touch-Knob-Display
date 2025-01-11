@@ -1,8 +1,7 @@
 <h1 align = "center">UEDX48480021-MD80ESP32_2.1inch-Touch-Knob-Display</h1>
 
 <p align="center" width="90%">
-    <img src="image/2.1.jpg" alt="">
-    <img src="image/2.1_1.jpg" alt="">
+    <img src="image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241129110611.jpg" alt="">
 </p>
 
 ## **English | [中文](./README_CN.md)**
