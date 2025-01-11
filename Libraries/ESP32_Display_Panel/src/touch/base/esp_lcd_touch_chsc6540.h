@@ -38,7 +38,7 @@ esp_err_t esp_lcd_touch_new_i2c_chsc6540(const esp_lcd_panel_io_handle_t io, con
  * @brief I2C address of the CHSC6540 controller
  *
  */
-#define ESP_LCD_TOUCH_IO_I2C_CHSC6540_ADDRESS    (0x15)
+#define ESP_LCD_TOUCH_IO_I2C_CHSC6540_ADDRESS    (0x2E)
 /**
  * @brief Touch IO configuration structure
  *
