@@ -1,8 +1,7 @@
-<h1 align = "center">UEDX48480021-MD80ESP32_2.1inch-Knob-Display</h1>
+<h1 align = "center">UEDX48480021-MD80ESP32_2.1inch-Touch-Knob-Display</h1>
 
 <p align="center" width="90%">
-    <img src="image/2.1.jpg" alt="">
-    <img src="image/2.1_1.jpg" alt="">
+    <img src="image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241129110611.jpg" alt="">
 </p>
 
 ## **English | [中文](./README_CN.md)**
@@ -22,13 +21,13 @@
 ## Version iteration:
 |   Development board Version   |  Screen size   |   Resolution  | Update date        |Update description|
 | :-------------------------------: | :-------------------------------: | :-------------------------------: | :-------------------------------: |:-------------------------------: |
-| UEDX48480021-MD80E | 2.1-inch |  480*480  |2024-07-23      | Original version   |
+| UEDX48480021-MD80ET | 2.1-inch |  480*480  |2024-07-23      | Original version   |
 
 ## PurchaseLink
 
 | Product                     | SOC           |  FLASH  |  PSRAM   | Link                   |
 | :------------------------: | :-----------: |:-------: | :---------: | :------------------: |
-| UEDX48480021-MD80E   | ESP32S3R8 |   16M   | 8M (Octal SPI) | [VIEWE Mall](https://viewedisplay.com/product/esp32-7-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl-uart/)  |
+| UEDX48480021-MD80ET   | ESP32S3R8 |   16M   | 8M (Octal SPI) | [VIEWE Mall](https://viewedisplay.com/product/esp32-7-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl-uart/)  |
 
 ## Directory
 - [Describe](#describe)
@@ -42,7 +41,7 @@
 
 ## Describe
 
-UEDX48480021-MD80ESP32_2.1inch-Knob-Display is a development board with square 2.1-inch 480 * 480 resolution display, based on ESP32S3, suitable for the development of microcontroller projects with display.
+UEDX48480021-MD80ESP32_2.1inch-Touch-Knob-Display is a development board with square 2.1-inch 480 * 480 resolution display, based on ESP32S3, suitable for the development of microcontroller projects with display.
 
 
 ## Module
@@ -59,13 +58,14 @@ UEDX48480021-MD80ESP32_2.1inch-Knob-Display is a development board with square 2
 * Size: 2.1-inch IPS screen
 * Resolution: 480x480px
 * Screen type: IPS
-* Driver chip: GC9503CV
+* Driver chip: ST7701S 
 * Compatibility library:  ESP32_Display_Panel
 * Bus communication protocol: 3 Wire SPI-RGB 24bits
 
 ### 3. Touch
 
-* Chip: No touch
+*  Touch Chip: CST826
+*  Bus communication protocol: IIC
 
 ## PinOverview
 
@@ -97,6 +97,10 @@ UEDX48480021-MD80ESP32_2.1inch-Knob-Display is a development board with square 2
 | RST        | IO8       |
 | BACKLIGHT  | IO7       |
 
+| Touch Pin  | ESP32S3 Pin|
+| :------------------: | :------------------:|
+|   SCL    | IO15       |
+|   SDA    | IO16   |
 
 | button Pin  | ESP32S3 Pin|
 | :------------------: | :------------------:|
