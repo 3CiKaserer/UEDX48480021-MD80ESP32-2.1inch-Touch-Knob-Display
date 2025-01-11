@@ -210,13 +210,13 @@ UEDX48480021-MD80ESP32_2.1inch-Touch-Knob-Display is a development board with sq
 
 ## Schematic
 <p align="center" width="100%">
-    <img src="Schematic/MD80E.SCH.20240725_00.png" alt="example">
+    <img src="Schematic/MD80ET-V1.0%20SCH_00.png" alt="example">
 </p>
 
 ## Information
 [products specification](information/UEDX48480021-MD80E%20V3.3%20SPEC.pdf)
 
-[Display Datasheet](information/UE021WV-RB40-L002B.pdf)
+[Display Datasheet](information/ALL-UE021WV-RB40-A009A%20V1.0%20SPEC.pdf)
 
 [button](information/6x6Silent%20switch.pdf)
 
